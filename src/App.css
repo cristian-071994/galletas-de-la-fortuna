@@ -1,0 +1,26 @@
+.App {
+  height: 100vh; /* 100% de la altura de la pantalla */
+  background-image: url("/images/image1.jpg"); /* imagen de fondo */
+  background-size: cover; /* hacemos que la imagen no pierda su formato y la imagen se adapta al contenedor */
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.image1 {
+  background-image: url("/images/image1.jpg");
+}
+
+.image2 {
+  background-image: url("/images/image2.jpg");
+}
+
+.image3 {
+  background-image: url("/images/image3.jpg");
+}
+
+.image4 {
+  background-image: url("/images/image4.jpg");
+}

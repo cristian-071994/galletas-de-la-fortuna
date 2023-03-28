@@ -1,0 +1,48 @@
+.containerInfo__title {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 35px;
+  text-shadow: 4px 6px 0px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.containerInfo__phrase {
+  color: grey;
+  background-image: url("/images/containerText.png");
+  padding: 20px;
+  text-align: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  aspect-ratio: 2.4;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 500px;
+}
+
+.containerInfo__author {
+  background-color: rgba(238, 241, 8, 0.753);
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  position: absolute;
+  font-weight: lighter;
+  text-align: center;
+  padding: 5px 10px;
+  max-width: max-content;
+  margin: 0 auto;
+  bottom: 40px;
+  left: 50%; 
+  transform: translateX(-50%);
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    .containerInfo__author{
+        font-size: 20px;
+    }
+}
