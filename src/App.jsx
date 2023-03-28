@@ -28,8 +28,8 @@ function App() {
 
   return (
     <div className={`App ${image}`}>
-      <ContainerInfo quote={quote} handleNewQuote={handleNewQuote}/>
-      
+      <ContainerInfo quote={quote} handleNewQuote={handleNewQuote}/>   
+         
     </div>
   );
 }
