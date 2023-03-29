@@ -3,7 +3,7 @@ import "./styles/Button.css"
 
 const Button = ({handleNewQuote}) => {
   return (
-    <button className='button' onClick={handleNewQuote}>Probar mi suerte</button>
+    <button className='button' onClick={handleNewQuote}>Try my luck</button>
   )
 }
 
